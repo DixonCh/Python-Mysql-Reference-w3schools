@@ -1,10 +1,11 @@
+'''
 Python MySQL Insert Into Table
 Insert Into Table
 To fill a table in MySQL, use the "INSERT INTO" statement.
 
 Example
 Insert a record in the "customers" table:
-
+'''
 import mysql.connector
 
 mydb = mysql.connector.connect(
@@ -23,6 +24,8 @@ mycursor.execute(sql, val)
 mydb.commit()
 
 print(mycursor.rowcount, "record inserted.")
+
+'''
 Important!: Notice the statement: mydb.commit(). It is required to make the changes, otherwise no changes are made to the table.
 
 Insert Multiple Rows
@@ -32,6 +35,7 @@ The second parameter of the executemany() method is a list of tuples, containing
 
 Example
 Fill the "customers" table with data:
+'''
 
 import mysql.connector
 
@@ -66,6 +70,7 @@ mycursor.executemany(sql, val)
 mydb.commit()
 
 print(mycursor.rowcount, "was inserted.")
+'''
 Get Inserted ID
 You can get the id of the row you just inserted by asking the cursor object.
 
@@ -73,7 +78,7 @@ Note: If you insert more that one row, the id of the last inserted row is return
 
 Example
 Insert one row, and return the ID:
-
+'''
 import mysql.connector
 
 mydb = mysql.connector.connect(
