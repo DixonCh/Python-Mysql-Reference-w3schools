@@ -1,3 +1,4 @@
+'''
 Python MySQL
 Python can be used in database applications.
 
@@ -38,7 +39,7 @@ Start by creating a connection to the database.
 Use the username and password from your MySQL database:
 
 demo_mysql_connection.py:
-
+'''
 import mysql.connector
 
 mydb = mysql.connector.connect(
@@ -48,4 +49,5 @@ mydb = mysql.connector.connect(
 )
 
 print(mydb)
-Now you can start querying the database using SQL statements.
+
+#Now you can start querying the database using SQL statements.
