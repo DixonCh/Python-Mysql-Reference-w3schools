@@ -1,10 +1,11 @@
+'''
 Python MySQL Where
 Select With a Filter
 When selecting records from a table, you can filter the selection by using the "WHERE" statement:
 
 Example
 Select record(s) where the address is "Park Lane 38": result:
-
+'''
 import mysql.connector
 
 mydb = mysql.connector.connect(
@@ -31,7 +32,7 @@ Use the %  to represent wildcard characters:
 
 Example
 Select records where the address contains the word "way":
-
+'''
 import mysql.connector
 
 mydb = mysql.connector.connect(
