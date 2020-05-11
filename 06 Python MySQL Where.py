@@ -25,6 +25,8 @@ myresult = mycursor.fetchall()
 
 for x in myresult:
   print(x)
+
+'''
 Wildcard Characters
 You can also select the records that starts, includes, or ends with a given letter or phrase.
 
@@ -52,6 +54,8 @@ myresult = mycursor.fetchall()
 
 for x in myresult:
   print(x)
+
+  '''
 Prevent SQL Injection
 When query values are provided by the user, you should escape the values.
 
@@ -61,7 +65,7 @@ The mysql.connector module has methods to escape query values:
 
 Example
 Escape query values by using the placholder %s method:
-
+'''
 import mysql.connector
 
 mydb = mysql.connector.connect(
