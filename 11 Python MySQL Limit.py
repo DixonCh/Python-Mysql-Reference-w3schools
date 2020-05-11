@@ -1,6 +1,8 @@
 '''
-Python MySQL Limit
-Limit the Result
+Python MySQL Limit:
+
+Limit the Result:
+
 You can limit the number of records returned from the query, by using the "LIMIT" statement:
 
 Example:
