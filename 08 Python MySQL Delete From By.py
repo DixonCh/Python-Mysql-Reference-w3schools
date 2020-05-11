@@ -3,7 +3,8 @@ Python MySQL Delete From By
 Delete Record
 You can delete records from an existing table by using the "DELETE FROM" statement:
 
-Example
+Example:
+
 Delete any record where the address is "Mountain 21":
 '''
 import mysql.connector
@@ -28,7 +29,8 @@ print(mycursor.rowcount, "record(s) deleted")
 '''
 Important!: Notice the statement: mydb.commit(). It is required to make the changes, otherwise no changes are made to the table.
 
-Notice the WHERE clause in the DELETE syntax: The WHERE clause specifies which record(s) that should be deleted. If you omit the WHERE clause, all records will be deleted!
+Notice the WHERE clause in the DELETE syntax: The WHERE clause specifies which record(s) that should be deleted. If you omit the WHERE 
+clause, all records will be deleted!
 
 Prevent SQL Injection
 It is considered a good practice to escape the values of any query, also in delete statements.
