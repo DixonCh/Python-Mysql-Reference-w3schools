@@ -1,6 +1,8 @@
 '''
-Python MySQL Delete From By
-Delete Record
+Python MySQL Delete From By:
+
+Delete Record:
+
 You can delete records from an existing table by using the "DELETE FROM" statement:
 
 Example:
