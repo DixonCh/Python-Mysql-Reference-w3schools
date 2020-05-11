@@ -1,10 +1,11 @@
+'''
 Python MySQL Update Table
 Update Table
 You can update existing records in a table by using the "UPDATE" statement:
 
 Example
 Overwrite the address column from "Valley 345" to "Canyoun 123":
-
+'''
 import mysql.connector
 
 mydb = mysql.connector.connect(
@@ -23,9 +24,11 @@ mycursor.execute(sql)
 mydb.commit()
 
 print(mycursor.rowcount, "record(s) affected")
+'''
 Important!: Notice the statement: mydb.commit(). It is required to make the changes, otherwise no changes are made to the table.
 
-Notice the WHERE clause in the UPDATE syntax: The WHERE clause specifies which record or records that should be updated. If you omit the WHERE clause, all records will be updated!
+Notice the WHERE clause in the UPDATE syntax: The WHERE clause specifies which record or records that should be updated. If you omit the
+WHERE clause, all records will be updated!
 
 Prevent SQL Injection
 It is considered a good practice to escape the values of any query, also in update statements.
@@ -36,7 +39,7 @@ The mysql.connector module uses the placeholder %s to escape values in the delet
 
 Example
 Escape values by using the placholder %s method:
-
+'''
 import mysql.connector
 
 mydb = mysql.connector.connect(
