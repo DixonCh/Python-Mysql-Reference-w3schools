@@ -1,9 +1,12 @@
 '''
-Python MySQL Drop Table
-Delete a Table
+Python MySQL Drop Table:
+
+Delete a Table:
+
 You can delete an existing table by using the "DROP TABLE" statement:
 
-Example
+Example:
+
 Delete the table "customers":
 '''
 import mysql.connector
