@@ -31,7 +31,9 @@ print(mycursor.rowcount, "record(s) deleted")
 '''
 Important!: Notice the statement: mydb.commit(). It is required to make the changes, otherwise no changes are made to the table.
 
-Notice the WHERE clause in the DELETE syntax: The WHERE clause specifies which record(s) that should be deleted. If you omit the WHERE 
+Notice the WHERE clause in the DELETE syntax: 
+
+The WHERE clause specifies which record(s) that should be deleted. If you omit the WHERE 
 clause, all records will be deleted!
 
 Prevent SQL Injection:
