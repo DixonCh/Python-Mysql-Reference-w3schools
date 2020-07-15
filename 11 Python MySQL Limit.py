@@ -28,7 +28,8 @@ for x in myresult:
   print(x)
  
 '''
-Start From Another Position
+Start From Another Position:
+
 If you want to return five records, starting from the third record, you can use the "OFFSET" keyword:
 
 Example
