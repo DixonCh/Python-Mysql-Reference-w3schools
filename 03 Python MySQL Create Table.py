@@ -5,7 +5,7 @@ To create a table in MySQL, use the "CREATE TABLE" statement.
 
 Make sure you define the name of the database when you create the connection
 
-Example
+Example:
 
 Create a table named "customers":
 '''
