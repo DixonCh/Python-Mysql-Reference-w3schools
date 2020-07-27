@@ -1,9 +1,12 @@
 '''
-Python MySQL Update Table
-Update Table
+Python MySQL Update Table:
+
+Update Table:
+
 You can update existing records in a table by using the "UPDATE" statement:
 
-Example
+Example:
+
 Overwrite the address column from "Valley 345" to "Canyoun 123":
 '''
 import mysql.connector
