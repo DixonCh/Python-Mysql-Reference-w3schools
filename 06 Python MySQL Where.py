@@ -1,9 +1,11 @@
 '''
-Python MySQL Where
+Python MySQL Where:
+
 Select With a Filter
 When selecting records from a table, you can filter the selection by using the "WHERE" statement:
 
-Example
+Example:
+
 Select record(s) where the address is "Park Lane 38": result:
 '''
 import mysql.connector
@@ -27,12 +29,14 @@ for x in myresult:
   print(x)
 
 '''
-Wildcard Characters
+Wildcard Characters:
+
 You can also select the records that starts, includes, or ends with a given letter or phrase.
 
 Use the %  to represent wildcard characters:
 
-Example
+Example:
+
 Select records where the address contains the word "way":
 '''
 import mysql.connector
@@ -56,14 +60,16 @@ for x in myresult:
   print(x)
 
   '''
-Prevent SQL Injection
+Prevent SQL Injection:
+
 When query values are provided by the user, you should escape the values.
 
 This is to prevent SQL injections, which is a common web hacking technique to destroy or misuse your database.
 
 The mysql.connector module has methods to escape query values:
 
-Example
+Example:
+
 Escape query values by using the placholder %s method:
 '''
 import mysql.connector
