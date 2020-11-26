@@ -32,7 +32,8 @@ Start From Another Position:
 
 If you want to return five records, starting from the third record, you can use the "OFFSET" keyword:
 
-Example
+Example:
+
 Start from position 3, and return 5 records:
 '''
 import mysql.connector
