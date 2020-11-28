@@ -1,9 +1,12 @@
 '''
-Python MySQL Select From
-Select From a Table
+Python MySQL Select From:
+
+Select From a Table:
+
 To select from a table in MySQL, use the "SELECT" statement:
 
-Example
+Example:
+
 Select all records from the "customers" table, and display the result:
 '''
 import mysql.connector
