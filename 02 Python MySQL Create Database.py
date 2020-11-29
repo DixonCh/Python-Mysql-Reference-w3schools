@@ -1,9 +1,11 @@
 '''
-Python MySQL Create Database
+Python MySQL Create Database:
+
 Creating a Database
 To create a database in MySQL, use the "CREATE DATABASE" statement:
 
-Example
+Example:
+
 create a database named "mydatabase":
 '''
 
