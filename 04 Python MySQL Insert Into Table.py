@@ -1,9 +1,12 @@
 '''
-Python MySQL Insert Into Table
-Insert Into Table
+Python MySQL Insert Into Table:
+
+Insert Into Table:
+
 To fill a table in MySQL, use the "INSERT INTO" statement.
 
-Example
+Example:
+
 Insert a record in the "customers" table:
 '''
 import mysql.connector
