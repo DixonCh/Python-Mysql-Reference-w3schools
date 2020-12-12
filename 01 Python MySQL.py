@@ -27,7 +27,8 @@ Download and install "MySQL Connector":
 C:\Users\Your Name\AppData\Local\Programs\Python\Python36-32\Scripts>python -m pip install mysql-connector
 Now you have downloaded and installed a MySQL driver.
 
-Test MySQL Connector
+Test MySQL Connector:
+
 To test if the installation was successful, or if you already have "MySQL Connector" installed, create a Python page with the following content:
 
 demo_mysql_test.py:
@@ -35,7 +36,8 @@ demo_mysql_test.py:
 import mysql.connector
 If the above code was executed with no errors, "MySQL Connector" is installed and ready to be used.
 
-Create Connection
+Create Connection:
+
 Start by creating a connection to the database.
 
 Use the username and password from your MySQL database:
