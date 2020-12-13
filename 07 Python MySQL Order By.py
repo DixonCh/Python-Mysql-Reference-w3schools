@@ -32,10 +32,12 @@ for x in myresult:
   print(x)
   
 '''
-ORDER BY DESC
+ORDER BY DESC:
+
 Use the DESC keyword to sort the result in a descending order.
 
-Example
+Example:
+
 Sort the result reverse alphabetically by name:
 '''
 import mysql.connector
