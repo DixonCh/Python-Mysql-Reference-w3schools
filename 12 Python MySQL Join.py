@@ -55,7 +55,8 @@ for x in myresult:
 '''
 Note: You can use JOIN instead of INNER JOIN. They will both give you the same result.
 
-LEFT JOIN
+LEFT JOIN:
+
 In the example above, Hannah, and Michael were excluded from the result, that is because INNER JOIN only shows the records where there is
 a match.
 
