@@ -33,7 +33,8 @@ Important!: Notice the statement: mydb.commit(). It is required to make the chan
 Notice the WHERE clause in the UPDATE syntax: The WHERE clause specifies which record or records that should be updated. If you omit the
 WHERE clause, all records will be updated!
 
-Prevent SQL Injection
+Prevent SQL Injection:
+
 It is considered a good practice to escape the values of any query, also in update statements.
 
 This is to prevent SQL injections, which is a common web hacking technique to destroy or misuse your database.
