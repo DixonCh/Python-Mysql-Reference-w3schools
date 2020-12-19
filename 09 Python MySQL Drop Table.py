@@ -32,6 +32,7 @@ Example:
 
 Delete the table "customers" if it exists:
 '''
+
 import mysql.connector
 
 mydb = mysql.connector.connect(
