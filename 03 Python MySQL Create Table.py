@@ -1,6 +1,8 @@
 '''
-Python MySQL Create Table
-Creating a Table
+Python MySQL Create Table:
+
+Creating a Table:
+
 To create a table in MySQL, use the "CREATE TABLE" statement.
 
 Make sure you define the name of the database when you create the connection
