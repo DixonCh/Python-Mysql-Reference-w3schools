@@ -72,6 +72,7 @@ Example:
 
 Escape query values by using the placholder %s method:
 '''
+  
 import mysql.connector
 
 mydb = mysql.connector.connect(
