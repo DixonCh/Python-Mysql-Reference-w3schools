@@ -30,7 +30,8 @@ for x in myresult:
 '''
 Note: We use the fetchall() method, which fetches all rows from the last executed statement.
 
-Selecting Columns
+Selecting Columns:
+
 To select only some of the columns in a table, use the "SELECT" statement followed by the column name(s):
 
 Example
