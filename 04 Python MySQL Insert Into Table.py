@@ -31,7 +31,8 @@ print(mycursor.rowcount, "record inserted.")
 '''
 Important!: Notice the statement: mydb.commit(). It is required to make the changes, otherwise no changes are made to the table.
 
-Insert Multiple Rows
+Insert Multiple Rows:
+
 To insert multiple rows into a table, use the executemany() method.
 
 The second parameter of the executemany() method is a list of tuples, containing the data you want to insert:
