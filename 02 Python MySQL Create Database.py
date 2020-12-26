@@ -26,7 +26,8 @@ If the above code was executed with no errors, you have successfully created a d
 Check if Database Exists
 You can check if a database exist by listing all databases in your system by using the "SHOW DATABASES" statement:
 
-Example
+Example:
+
 Return a list of your system's databases:
 '''
 import mysql.connector
