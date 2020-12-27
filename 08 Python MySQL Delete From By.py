@@ -37,6 +37,7 @@ The WHERE clause specifies which record(s) that should be deleted. If you omit t
 clause, all records will be deleted!
 
 Prevent SQL Injection:
+
 It is considered a good practice to escape the values of any query, also in delete statements.
 
 This is to prevent SQL injections, which is a common web hacking technique to destroy or misuse your database.
