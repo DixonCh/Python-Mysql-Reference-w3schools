@@ -9,6 +9,7 @@ Example:
 
 Delete any record where the address is "Mountain 21":
 '''
+
 import mysql.connector
 
 mydb = mysql.connector.connect(
