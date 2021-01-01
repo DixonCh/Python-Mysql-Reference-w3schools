@@ -41,7 +41,8 @@ This is to prevent SQL injections, which is a common web hacking technique to de
 
 The mysql.connector module uses the placeholder %s to escape values in the delete statement:
 
-Example
+Example:
+
 Escape values by using the placholder %s method:
 '''
 import mysql.connector
