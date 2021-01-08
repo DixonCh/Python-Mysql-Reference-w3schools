@@ -61,6 +61,7 @@ mydb = mysql.connector.connect(
 mycursor = mydb.cursor()
 
 sql = "DELETE FROM customers WHERE address = %s"
+
 adr = ("Yellow Garden 2", )
 
 mycursor.execute(sql, adr)
