@@ -40,6 +40,7 @@ Example:
 
 Sort the result reverse alphabetically by name:
 '''
+
 import mysql.connector
 
 mydb = mysql.connector.connect(
