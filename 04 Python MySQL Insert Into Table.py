@@ -37,7 +37,8 @@ To insert multiple rows into a table, use the executemany() method.
 
 The second parameter of the executemany() method is a list of tuples, containing the data you want to insert:
 
-Example
+Example:
+
 Fill the "customers" table with data:
 '''
 
