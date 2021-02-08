@@ -1,7 +1,8 @@
 '''
 Python MySQL Where:
 
-Select With a Filter
+Select With a Filter:
+
 When selecting records from a table, you can filter the selection by using the "WHERE" statement:
 
 Example:
