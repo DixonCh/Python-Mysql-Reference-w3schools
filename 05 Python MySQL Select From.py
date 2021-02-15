@@ -56,12 +56,14 @@ for x in myresult:
   print(x)
   
 '''
-Using the fetchone() Method
+Using the fetchone() Method:
+
 If you are only interested in one row, you can use the fetchone() method.
 
 The fetchone() method will return the first row of the result:
 
-Example
+Example:
+
 Fetch only one row:
 '''
 import mysql.connector
