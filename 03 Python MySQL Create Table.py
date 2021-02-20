@@ -29,7 +29,8 @@ If the above code was executed with no errors, you have now successfully created
 Check if Table Exists
 You can check if a table exist by listing all tables in your database with the "SHOW TABLES" statement:
 
-Example
+Example:
+
 Return a list of your system's databases:
 '''
 import mysql.connector
@@ -49,7 +50,8 @@ for x in mycursor:
   print(x)
   
 '''
-Primary Key
+Primary Key:
+
 When creating a table, you should also create a column with a unique key for each record.
 
 This can be done by defining a PRIMARY KEY.
