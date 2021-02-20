@@ -9,6 +9,7 @@ Example:
 
 Delete the table "customers":
 '''
+
 import mysql.connector
 
 mydb = mysql.connector.connect(
