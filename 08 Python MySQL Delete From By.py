@@ -34,7 +34,8 @@ Important!: Notice the statement: mydb.commit(). It is required to make the chan
 
 Notice the WHERE clause in the DELETE syntax: 
 
-The WHERE clause specifies which record(s) that should be deleted. If you omit the WHERE 
+The WHERE clause specifies which record(s) that should be deleted. If you omit the WHERE
+
 clause, all records will be deleted!
 
 Prevent SQL Injection:
