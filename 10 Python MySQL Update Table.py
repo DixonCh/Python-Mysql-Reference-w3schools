@@ -31,6 +31,7 @@ print(mycursor.rowcount, "record(s) affected")
 Important!: Notice the statement: mydb.commit(). It is required to make the changes, otherwise no changes are made to the table.
 
 Notice the WHERE clause in the UPDATE syntax: The WHERE clause specifies which record or records that should be updated. If you omit the
+
 WHERE clause, all records will be updated!
 
 Prevent SQL Injection:
