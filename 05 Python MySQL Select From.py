@@ -34,7 +34,8 @@ Selecting Columns:
 
 To select only some of the columns in a table, use the "SELECT" statement followed by the column name(s):
 
-Example
+Example:
+
 Select only the name and address columns:
 '''
 import mysql.connector
