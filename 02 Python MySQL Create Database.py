@@ -48,7 +48,8 @@ for x in mycursor:
 '''
 Or you can try to access the database when making the connection:
 
-Example
+Example:
+
 Try connecting to the database "mydatabase":
 '''
 
