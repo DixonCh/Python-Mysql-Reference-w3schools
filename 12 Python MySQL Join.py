@@ -62,7 +62,8 @@ a match.
 
 If you want to show all users, even if they do not have a favorite product, use the LEFT JOIN statement:
 
-Example
+Example:
+
 Select all users and their favorite product:
 '''
 
@@ -79,6 +80,7 @@ If you want to return all products, and the users who have them as their favorit
 RIGHT JOIN statement:
 
 Example:
+
 Select all products, and the user(s) who have them as their favorite:
 '''
 sql = "SELECT \
