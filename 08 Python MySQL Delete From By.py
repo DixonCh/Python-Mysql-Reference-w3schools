@@ -36,7 +36,7 @@ Notice the WHERE clause in the DELETE syntax:
 
 The WHERE clause specifies which record(s) that should be deleted. If you omit the WHERE
 
-clause, all records will be deleted!
+clause, all records will be deleted!! So be careful.
 
 Prevent SQL Injection:
 
@@ -68,5 +68,6 @@ adr = ("Yellow Garden 2", )
 mycursor.execute(sql, adr)
 
 mydb.commit()
+
 
 print(mycursor.rowcount, "record(s) deleted")
